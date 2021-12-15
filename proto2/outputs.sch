@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 4
 Title ""
-Date ""
+Date "2021-12-14"
 Rev ""
-Comp ""
+Comp "Langhe Greenhaus"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -56,8 +56,8 @@ Wire Wire Line
 Wire Wire Line
 	2300 2850 2800 2850
 Text GLabel 6550 1600 2    50   Input ~ 0
-DQ01_2
-Text GLabel 950  2650 0    50   Input ~ 0
+DQ1_2
+Text GLabel 4200 1400 0    50   Input ~ 0
 OUT_2
 $Comp
 L Relay_SolidState:ASSR-1218 U7
@@ -80,7 +80,7 @@ Wire Wire Line
 	2300 4100 2800 4100
 Text GLabel 9900 1600 2    50   Input ~ 0
 DQ2_1
-Text GLabel 950  3900 0    50   Input ~ 0
+Text GLabel 7550 1400 0    50   Input ~ 0
 OUT_3
 $Comp
 L Relay_SolidState:ASSR-1218 U10
@@ -101,7 +101,7 @@ Wire Wire Line
 	2250 5500 2800 5500
 Text GLabel 3350 2850 2    50   Input ~ 0
 DQ2_2
-Text GLabel 900  5300 0    50   Input ~ 0
+Text GLabel 950  2650 0    50   Input ~ 0
 OUT_4
 $Comp
 L Relay_SolidState:ASSR-1218 U2
@@ -116,7 +116,7 @@ F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 5250 1500 50  0001 L CNN
 $EndComp
 Wire Wire Line
 	4750 1400 4950 1400
-Text GLabel 4200 1400 0    50   Input ~ 0
+Text GLabel 4200 2650 0    50   Input ~ 0
 OUT_5
 $Comp
 L Relay_SolidState:ASSR-1218 U5
@@ -131,7 +131,7 @@ F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 5250 2750 50  0001 L CNN
 $EndComp
 Wire Wire Line
 	4750 2650 4950 2650
-Text GLabel 4200 2650 0    50   Input ~ 0
+Text GLabel 7550 2650 0    50   Input ~ 0
 OUT_6
 $Comp
 L Relay_SolidState:ASSR-1218 U8
@@ -146,7 +146,7 @@ F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 5250 4000 50  0001 L CNN
 $EndComp
 Wire Wire Line
 	4750 3900 4950 3900
-Text GLabel 4200 3900 0    50   Input ~ 0
+Text GLabel 950  3900 0    50   Input ~ 0
 OUT_7
 $Comp
 L Relay_SolidState:ASSR-1218 U11
@@ -159,7 +159,7 @@ F 3 "https://docs.broadcom.com/docs/AV02-0173EN" H 5200 5400 50  0001 L CNN
 	1    5200 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 5300 0    50   Input ~ 0
+Text GLabel 4200 3900 0    50   Input ~ 0
 OUT_8
 Text GLabel 2750 5050 1    50   Input ~ 0
 VDQ2
@@ -295,8 +295,6 @@ F 3 "~" H 6150 5500 50  0001 C CNN
 	1    6150 5500
 	0    1    1    0   
 $EndComp
-Text GLabel 1550 6900 0    50   Input ~ 0
-VDQ
 Text GLabel 1850 6900 2    50   Input ~ 0
 VDQ1
 Text GLabel 1850 7000 2    50   Input ~ 0
@@ -309,8 +307,6 @@ Wire Wire Line
 	1850 7200 1700 7200
 Wire Wire Line
 	1700 7200 1700 7100
-Wire Wire Line
-	1700 6900 1550 6900
 Wire Wire Line
 	1700 6900 1850 6900
 Connection ~ 1700 6900
@@ -343,7 +339,7 @@ Wire Wire Line
 	8000 1600 8000 1700
 Wire Wire Line
 	7900 1400 7550 1400
-Text GLabel 7550 1400 0    50   Input ~ 0
+Text GLabel 7550 3900 0    50   Input ~ 0
 OUT_9
 $Comp
 L Relay_SolidState:ASSR-1218 U6
@@ -364,7 +360,7 @@ Wire Wire Line
 	8000 2850 8000 2950
 Wire Wire Line
 	7900 2650 7550 2650
-Text GLabel 7550 2650 0    50   Input ~ 0
+Text GLabel 900  5300 0    50   Input ~ 0
 OUT_10
 $Comp
 L Relay_SolidState:ASSR-1218 U9
@@ -396,7 +392,7 @@ Wire Wire Line
 	8000 4100 8000 4200
 Wire Wire Line
 	7900 3900 7550 3900
-Text GLabel 7550 3900 0    50   Input ~ 0
+Text GLabel 4150 5300 0    50   Input ~ 0
 OUT_11
 $Comp
 L Relay_SolidState:ASSR-1218 U12
@@ -850,4 +846,19 @@ F 3 "" H 7950 5600 50  0001 C CNN
 	1    7950 5600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+24V #PWR0124
+U 1 1 61C913D6
+P 1500 6700
+F 0 "#PWR0124" H 1500 6550 50  0001 C CNN
+F 1 "+24V" H 1515 6873 50  0000 C CNN
+F 2 "" H 1500 6700 50  0001 C CNN
+F 3 "" H 1500 6700 50  0001 C CNN
+	1    1500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6900 1500 6700
+Wire Wire Line
+	1500 6900 1700 6900
 $EndSCHEMATC

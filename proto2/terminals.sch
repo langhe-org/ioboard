@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 3 4
 Title ""
-Date ""
+Date "2021-12-14"
 Rev ""
-Comp ""
+Comp "Langhe Greenhaus"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61ACF978
-P 9700 1150
+P 10000 1150
 AR Path="/61ACF978" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61ACF978" Ref="J1"  Part="1" 
-F 0 "J1" H 9618 1467 50  0000 C CNN
-F 1 "Output 1" H 9618 1376 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 1150 50  0001 C CNN
-F 3 "~" H 9700 1150 50  0001 C CNN
-	1    9700 1150
+F 0 "J1" H 9918 1467 50  0000 C CNN
+F 1 "Output 1" H 9918 1376 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 1150 50  0001 C CNN
+F 3 "~" H 10000 1150 50  0001 C CNN
+	1    10000 1150
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 1050 0    50   Input ~ 0
@@ -31,9 +31,7 @@ DQ1_1
 Text GLabel 7450 1250 0    50   Input ~ 0
 DQ1_2
 Wire Wire Line
-	9500 1050 9050 1050
-Wire Wire Line
-	9500 1350 8850 1350
+	9800 1050 9050 1050
 Wire Wire Line
 	7450 1600 7450 1350
 Text GLabel 3600 1500 2    50   Input ~ 0
@@ -87,7 +85,7 @@ U 1 1 61B54E6C
 P 1850 1500
 F 0 "L5" V 1613 1500 50  0000 C CNN
 F 1 "100R 5A" V 1704 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1780 1500 50  0001 C CNN
+F 2 "Inductor_BCR:Coilmax_MS0630-2R2M" V 1780 1500 50  0001 C CNN
 F 3 "~" H 1850 1500 50  0001 C CNN
 	1    1850 1500
 	0    1    1    0   
@@ -100,7 +98,7 @@ U 1 1 61B608BA
 P 1850 1800
 F 0 "L6" V 2050 1800 50  0000 C CNN
 F 1 "100R 5A" V 1950 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1780 1800 50  0001 C CNN
+F 2 "Inductor_BCR:Coilmax_MS0630-2R2M" V 1780 1800 50  0001 C CNN
 F 3 "~" H 1850 1800 50  0001 C CNN
 	1    1850 1800
 	0    1    1    0   
@@ -240,7 +238,7 @@ F 3 "~" H 8250 1250 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8350 1250 9300 1250
+	8350 1250 9450 1250
 Wire Wire Line
 	8500 1400 8500 1350
 $Comp
@@ -334,14 +332,14 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61C24206
-P 9700 2050
+P 10000 2050
 AR Path="/61C24206" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61C24206" Ref="J3"  Part="1" 
-F 0 "J3" H 9618 2367 50  0000 C CNN
-F 1 "Output 2" H 9618 2276 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 2050 50  0001 C CNN
-F 3 "~" H 9700 2050 50  0001 C CNN
-	1    9700 2050
+F 0 "J3" H 9918 2367 50  0000 C CNN
+F 1 "Output 2" H 9918 2276 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 2050 50  0001 C CNN
+F 3 "~" H 10000 2050 50  0001 C CNN
+	1    10000 2050
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 1950 0    50   Input ~ 0
@@ -349,9 +347,9 @@ DQ2_1
 Text GLabel 7450 2150 0    50   Input ~ 0
 DQ2_2
 Wire Wire Line
-	9500 1950 9050 1950
+	9800 1950 9050 1950
 Wire Wire Line
-	9500 2250 8850 2250
+	9800 2250 9650 2250
 Wire Wire Line
 	7450 2500 7450 2250
 $Comp
@@ -392,7 +390,7 @@ F 3 "~" H 8250 2150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8350 2150 9300 2150
+	8350 2150 9450 2150
 Wire Wire Line
 	8500 2300 8500 2250
 Connection ~ 8500 2250
@@ -440,14 +438,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61C3FD3A
-P 9700 2850
+P 10000 2850
 AR Path="/61C3FD3A" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61C3FD3A" Ref="J4"  Part="1" 
-F 0 "J4" H 9618 3167 50  0000 C CNN
-F 1 "Output 3" H 9618 3076 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 2850 50  0001 C CNN
-F 3 "~" H 9700 2850 50  0001 C CNN
-	1    9700 2850
+F 0 "J4" H 9918 3167 50  0000 C CNN
+F 1 "Output 3" H 9918 3076 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 2850 50  0001 C CNN
+F 3 "~" H 10000 2850 50  0001 C CNN
+	1    10000 2850
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 2750 0    50   Input ~ 0
@@ -455,9 +453,9 @@ DQ3_1
 Text GLabel 7450 2950 0    50   Input ~ 0
 DQ3_2
 Wire Wire Line
-	9500 2750 9050 2750
+	9800 2750 9050 2750
 Wire Wire Line
-	9500 3050 8850 3050
+	9800 3050 9650 3050
 Wire Wire Line
 	7450 3300 7450 3050
 $Comp
@@ -498,7 +496,7 @@ F 3 "~" H 8250 2950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8350 2950 9300 2950
+	8350 2950 9450 2950
 Wire Wire Line
 	8500 3100 8500 3050
 $Comp
@@ -590,14 +588,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61C40297
-P 9700 3650
+P 10000 3650
 AR Path="/61C40297" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61C40297" Ref="J6"  Part="1" 
-F 0 "J6" H 9618 3967 50  0000 C CNN
-F 1 "Output 4" H 9618 3876 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 3650 50  0001 C CNN
-F 3 "~" H 9700 3650 50  0001 C CNN
-	1    9700 3650
+F 0 "J6" H 9918 3967 50  0000 C CNN
+F 1 "Output 4" H 9918 3876 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 3650 50  0001 C CNN
+F 3 "~" H 10000 3650 50  0001 C CNN
+	1    10000 3650
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 3550 0    50   Input ~ 0
@@ -605,9 +603,9 @@ DQ4_1
 Text GLabel 7450 3750 0    50   Input ~ 0
 DQ4_2
 Wire Wire Line
-	9500 3550 9050 3550
+	9800 3550 9050 3550
 Wire Wire Line
-	9500 3850 8850 3850
+	9800 3850 9650 3850
 Wire Wire Line
 	7450 4100 7450 3850
 $Comp
@@ -927,14 +925,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61D45245
-P 9700 4450
+P 10000 4450
 AR Path="/61D45245" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61D45245" Ref="J8"  Part="1" 
-F 0 "J8" H 9618 4767 50  0000 C CNN
-F 1 "Output 5" H 9618 4676 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 4450 50  0001 C CNN
-F 3 "~" H 9700 4450 50  0001 C CNN
-	1    9700 4450
+F 0 "J8" H 9918 4767 50  0000 C CNN
+F 1 "Output 5" H 9918 4676 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 4450 50  0001 C CNN
+F 3 "~" H 10000 4450 50  0001 C CNN
+	1    10000 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 4350 0    50   Input ~ 0
@@ -942,9 +940,9 @@ DQ5_1
 Text GLabel 7450 4550 0    50   Input ~ 0
 DQ5_2
 Wire Wire Line
-	9500 4350 9050 4350
+	9800 4350 9050 4350
 Wire Wire Line
-	9500 4650 8850 4650
+	9800 4650 9700 4650
 Wire Wire Line
 	7450 4900 7450 4650
 $Comp
@@ -985,7 +983,7 @@ F 3 "~" H 8250 4550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8350 4550 9300 4550
+	8350 4550 9450 4550
 Wire Wire Line
 	8500 4700 8500 4650
 $Comp
@@ -1077,14 +1075,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61D45AE2
-P 9700 5250
+P 10000 5250
 AR Path="/61D45AE2" Ref="J?"  Part="1" 
 AR Path="/61A252C2/61D45AE2" Ref="J10"  Part="1" 
-F 0 "J10" H 9618 5567 50  0000 C CNN
-F 1 "Output 6" H 9618 5476 50  0000 C CNN
-F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 9700 5250 50  0001 C CNN
-F 3 "~" H 9700 5250 50  0001 C CNN
-	1    9700 5250
+F 0 "J10" H 9918 5567 50  0000 C CNN
+F 1 "Output 6" H 9918 5476 50  0000 C CNN
+F 2 "BCR_Connector:Phoenix_Contact_PST_4" H 10000 5250 50  0001 C CNN
+F 3 "~" H 10000 5250 50  0001 C CNN
+	1    10000 5250
 	1    0    0    -1  
 $EndComp
 Text GLabel 6300 5150 0    50   Input ~ 0
@@ -1092,9 +1090,7 @@ DQ6_1
 Text GLabel 7450 5350 0    50   Input ~ 0
 DQ6_2
 Wire Wire Line
-	9500 5150 9050 5150
-Wire Wire Line
-	9500 5450 9300 5450
+	9800 5150 9050 5150
 Wire Wire Line
 	7450 5700 7450 5450
 $Comp
@@ -1134,8 +1130,6 @@ F 3 "~" H 8250 5350 50  0001 C CNN
 	1    8250 5350
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	8350 5350 9300 5350
 Wire Wire Line
 	8500 5500 8500 5450
 $Comp
@@ -1230,7 +1224,7 @@ U 1 1 61D6A317
 P 4700 7150
 F 0 "MH1" H 4780 7146 50  0000 L CNN
 F 1 "Conn_01x01" H 4780 7101 50  0001 L CNN
-F 2 "BCR_STD:STD-M6" H 4700 7150 50  0001 C CNN
+F 2 "STD-xxx:STD-.125_wide" H 4700 7150 50  0001 C CNN
 F 3 "~" H 4700 7150 50  0001 C CNN
 	1    4700 7150
 	1    0    0    -1  
@@ -1241,7 +1235,7 @@ U 1 1 61D6B2B7
 P 4700 7300
 F 0 "MH2" H 4780 7296 50  0000 L CNN
 F 1 "Conn_01x01" H 4780 7251 50  0001 L CNN
-F 2 "BCR_STD:STD-M6" H 4700 7300 50  0001 C CNN
+F 2 "STD-xxx:STD-.125_wide" H 4700 7300 50  0001 C CNN
 F 3 "~" H 4700 7300 50  0001 C CNN
 	1    4700 7300
 	1    0    0    -1  
@@ -1252,7 +1246,7 @@ U 1 1 61D6B485
 P 4700 7450
 F 0 "MH3" H 4780 7446 50  0000 L CNN
 F 1 "Conn_01x01" H 4780 7401 50  0001 L CNN
-F 2 "BCR_STD:STD-M6" H 4700 7450 50  0001 C CNN
+F 2 "STD-xxx:STD-.125_wide" H 4700 7450 50  0001 C CNN
 F 3 "~" H 4700 7450 50  0001 C CNN
 	1    4700 7450
 	1    0    0    -1  
@@ -1263,7 +1257,7 @@ U 1 1 61D6B61A
 P 4700 7600
 F 0 "MH4" H 4780 7596 50  0000 L CNN
 F 1 "Conn_01x01" H 4780 7551 50  0001 L CNN
-F 2 "BCR_STD:STD-M6" H 4700 7600 50  0001 C CNN
+F 2 "STD-xxx:STD-.125_wide" H 4700 7600 50  0001 C CNN
 F 3 "~" H 4700 7600 50  0001 C CNN
 	1    4700 7600
 	1    0    0    -1  
@@ -1777,19 +1771,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 3350 2150 3350
 $Comp
-L power:Earth #PWR?
-U 1 1 61E7EEFB
-P 9050 1600
-AR Path="/619EB5F5/61E7EEFB" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61E7EEFB" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 9050 1350 50  0001 C CNN
-F 1 "Earth" H 9050 1450 50  0001 C CNN
-F 2 "" H 9050 1600 50  0001 C CNN
-F 3 "~" H 9050 1600 50  0001 C CNN
-	1    9050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61E7EF02
 P 9050 1500
@@ -1808,43 +1789,17 @@ Connection ~ 9050 1050
 Wire Wire Line
 	9050 1050 8350 1050
 $Comp
-L power:Earth #PWR?
-U 1 1 61EAF471
-P 9300 1600
-AR Path="/619EB5F5/61EAF471" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61EAF471" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 9300 1350 50  0001 C CNN
-F 1 "Earth" H 9300 1450 50  0001 C CNN
-F 2 "" H 9300 1600 50  0001 C CNN
-F 3 "~" H 9300 1600 50  0001 C CNN
-	1    9300 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61EB021B
-P 9300 1500
+P 9450 1500
 AR Path="/619EB5F5/61EB021B" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61EB021B" Ref="D2"  Part="1" 
-F 0 "D2" V 9300 1570 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 1570 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 1500 50  0001 C CNN
-F 3 "~" V 9300 1500 50  0001 C CNN
-	1    9300 1500
+F 0 "D2" V 9450 1570 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 1570 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 1500 50  0001 C CNN
+F 3 "~" V 9450 1500 50  0001 C CNN
+	1    9450 1500
 	0    1    1    0   
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 61ED1143
-P 9050 2500
-AR Path="/619EB5F5/61ED1143" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61ED1143" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 9050 2250 50  0001 C CNN
-F 1 "Earth" H 9050 2350 50  0001 C CNN
-F 2 "" H 9050 2500 50  0001 C CNN
-F 3 "~" H 9050 2500 50  0001 C CNN
-	1    9050 2500
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small_ALT D?
@@ -1862,47 +1817,21 @@ $EndComp
 Wire Wire Line
 	9050 2300 9050 1950
 $Comp
-L power:Earth #PWR?
-U 1 1 61ED1F1E
-P 9300 2500
-AR Path="/619EB5F5/61ED1F1E" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61ED1F1E" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 9300 2250 50  0001 C CNN
-F 1 "Earth" H 9300 2350 50  0001 C CNN
-F 2 "" H 9300 2500 50  0001 C CNN
-F 3 "~" H 9300 2500 50  0001 C CNN
-	1    9300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61ED1F28
-P 9300 2400
+P 9450 2400
 AR Path="/619EB5F5/61ED1F28" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61ED1F28" Ref="D4"  Part="1" 
-F 0 "D4" V 9300 2470 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 2470 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 2400 50  0001 C CNN
-F 3 "~" V 9300 2400 50  0001 C CNN
-	1    9300 2400
+F 0 "D4" V 9450 2470 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 2470 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 2400 50  0001 C CNN
+F 3 "~" V 9450 2400 50  0001 C CNN
+	1    9450 2400
 	0    1    1    0   
 $EndComp
 Connection ~ 9050 1950
 Wire Wire Line
 	9050 1950 8350 1950
-$Comp
-L power:Earth #PWR?
-U 1 1 61EE3BA2
-P 9050 3300
-AR Path="/619EB5F5/61EE3BA2" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61EE3BA2" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 9050 3050 50  0001 C CNN
-F 1 "Earth" H 9050 3150 50  0001 C CNN
-F 2 "" H 9050 3300 50  0001 C CNN
-F 3 "~" H 9050 3300 50  0001 C CNN
-	1    9050 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small_ALT D?
 U 1 1 61EE49BE
@@ -1919,47 +1848,21 @@ $EndComp
 Wire Wire Line
 	9050 3100 9050 2750
 $Comp
-L power:Earth #PWR?
-U 1 1 61EE49C9
-P 9300 3300
-AR Path="/619EB5F5/61EE49C9" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61EE49C9" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 9300 3050 50  0001 C CNN
-F 1 "Earth" H 9300 3150 50  0001 C CNN
-F 2 "" H 9300 3300 50  0001 C CNN
-F 3 "~" H 9300 3300 50  0001 C CNN
-	1    9300 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61EE49D3
-P 9300 3200
+P 9450 3200
 AR Path="/619EB5F5/61EE49D3" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61EE49D3" Ref="D6"  Part="1" 
-F 0 "D6" V 9300 3270 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 3270 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 3200 50  0001 C CNN
-F 3 "~" V 9300 3200 50  0001 C CNN
-	1    9300 3200
+F 0 "D6" V 9450 3270 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 3270 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 3200 50  0001 C CNN
+F 3 "~" V 9450 3200 50  0001 C CNN
+	1    9450 3200
 	0    1    1    0   
 $EndComp
 Connection ~ 9050 2750
 Wire Wire Line
 	9050 2750 8350 2750
-$Comp
-L power:Earth #PWR?
-U 1 1 61EF87D1
-P 9050 4100
-AR Path="/619EB5F5/61EF87D1" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61EF87D1" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 9050 3850 50  0001 C CNN
-F 1 "Earth" H 9050 3950 50  0001 C CNN
-F 2 "" H 9050 4100 50  0001 C CNN
-F 3 "~" H 9050 4100 50  0001 C CNN
-	1    9050 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small_ALT D?
 U 1 1 61EF9639
@@ -1976,47 +1879,21 @@ $EndComp
 Wire Wire Line
 	9050 3900 9050 3550
 $Comp
-L power:Earth #PWR?
-U 1 1 61EF9644
-P 9300 4100
-AR Path="/619EB5F5/61EF9644" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61EF9644" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 9300 3850 50  0001 C CNN
-F 1 "Earth" H 9300 3950 50  0001 C CNN
-F 2 "" H 9300 4100 50  0001 C CNN
-F 3 "~" H 9300 4100 50  0001 C CNN
-	1    9300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61EF964E
-P 9300 4000
+P 9450 4000
 AR Path="/619EB5F5/61EF964E" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61EF964E" Ref="D8"  Part="1" 
-F 0 "D8" V 9300 4070 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 4070 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 4000 50  0001 C CNN
-F 3 "~" V 9300 4000 50  0001 C CNN
-	1    9300 4000
+F 0 "D8" V 9450 4070 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 4070 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 4000 50  0001 C CNN
+F 3 "~" V 9450 4000 50  0001 C CNN
+	1    9450 4000
 	0    1    1    0   
 $EndComp
 Connection ~ 9050 3550
 Wire Wire Line
 	9050 3550 8350 3550
-$Comp
-L power:Earth #PWR?
-U 1 1 61F0BAE2
-P 9050 4900
-AR Path="/619EB5F5/61F0BAE2" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61F0BAE2" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 9050 4650 50  0001 C CNN
-F 1 "Earth" H 9050 4750 50  0001 C CNN
-F 2 "" H 9050 4900 50  0001 C CNN
-F 3 "~" H 9050 4900 50  0001 C CNN
-	1    9050 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small_ALT D?
 U 1 1 61F0C996
@@ -2033,47 +1910,21 @@ $EndComp
 Wire Wire Line
 	9050 4700 9050 4350
 $Comp
-L power:Earth #PWR?
-U 1 1 61F0C9A1
-P 9300 4900
-AR Path="/619EB5F5/61F0C9A1" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61F0C9A1" Ref="#PWR082"  Part="1" 
-F 0 "#PWR082" H 9300 4650 50  0001 C CNN
-F 1 "Earth" H 9300 4750 50  0001 C CNN
-F 2 "" H 9300 4900 50  0001 C CNN
-F 3 "~" H 9300 4900 50  0001 C CNN
-	1    9300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61F0C9AB
-P 9300 4800
+P 9450 4800
 AR Path="/619EB5F5/61F0C9AB" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61F0C9AB" Ref="D10"  Part="1" 
-F 0 "D10" V 9300 4870 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 4870 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 4800 50  0001 C CNN
-F 3 "~" V 9300 4800 50  0001 C CNN
-	1    9300 4800
+F 0 "D10" V 9450 4870 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 4870 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 4800 50  0001 C CNN
+F 3 "~" V 9450 4800 50  0001 C CNN
+	1    9450 4800
 	0    1    1    0   
 $EndComp
 Connection ~ 9050 4350
 Wire Wire Line
 	9050 4350 8350 4350
-$Comp
-L power:Earth #PWR?
-U 1 1 61F1F35F
-P 9050 5700
-AR Path="/619EB5F5/61F1F35F" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61F1F35F" Ref="#PWR094"  Part="1" 
-F 0 "#PWR094" H 9050 5450 50  0001 C CNN
-F 1 "Earth" H 9050 5550 50  0001 C CNN
-F 2 "" H 9050 5700 50  0001 C CNN
-F 3 "~" H 9050 5700 50  0001 C CNN
-	1    9050 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small_ALT D?
 U 1 1 61F2025F
@@ -2090,29 +1941,16 @@ $EndComp
 Wire Wire Line
 	9050 5500 9050 5150
 $Comp
-L power:Earth #PWR?
-U 1 1 61F2026A
-P 9300 5700
-AR Path="/619EB5F5/61F2026A" Ref="#PWR?"  Part="1" 
-AR Path="/61A252C2/61F2026A" Ref="#PWR095"  Part="1" 
-F 0 "#PWR095" H 9300 5450 50  0001 C CNN
-F 1 "Earth" H 9300 5550 50  0001 C CNN
-F 2 "" H 9300 5700 50  0001 C CNN
-F 3 "~" H 9300 5700 50  0001 C CNN
-	1    9300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small_ALT D?
 U 1 1 61F20274
-P 9300 5600
+P 9450 5600
 AR Path="/619EB5F5/61F20274" Ref="D?"  Part="1" 
 AR Path="/61A252C2/61F20274" Ref="D12"  Part="1" 
-F 0 "D12" V 9300 5670 50  0000 L CNN
-F 1 "D_Small_ALT" V 9345 5670 50  0001 L CNN
-F 2 "Diode_SMD:D_0805_2012Metric" V 9300 5600 50  0001 C CNN
-F 3 "~" V 9300 5600 50  0001 C CNN
-	1    9300 5600
+F 0 "D12" V 9450 5670 50  0000 L CNN
+F 1 "D_Small_ALT" V 9495 5670 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 9450 5600 50  0001 C CNN
+F 3 "~" V 9450 5600 50  0001 C CNN
+	1    9450 5600
 	0    1    1    0   
 $EndComp
 Connection ~ 9050 5150
@@ -2714,52 +2552,44 @@ F 3 "~" H 6800 5700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 2850 9500 2850
+	8850 2850 9250 2850
 Wire Wire Line
-	8350 3750 9300 3750
+	8350 3750 9450 3750
 Wire Wire Line
-	8850 3650 9500 3650
+	8850 3650 9250 3650
 Wire Wire Line
-	8850 4450 9500 4450
+	8850 4450 9250 4450
 Wire Wire Line
-	8850 5250 9500 5250
+	8850 5250 9300 5250
 Wire Wire Line
-	8850 1150 9500 1150
+	8850 1150 9250 1150
 Wire Wire Line
-	8850 2050 9500 2050
+	8850 2050 9250 2050
 Wire Wire Line
-	9300 2300 9300 2150
-Connection ~ 9300 2150
+	9450 2300 9450 2150
+Connection ~ 9450 2150
 Wire Wire Line
-	9300 2150 9500 2150
+	9450 2150 9800 2150
 Wire Wire Line
-	9300 1400 9300 1250
-Connection ~ 9300 1250
+	9450 1400 9450 1250
+Connection ~ 9450 1250
 Wire Wire Line
-	9300 1250 9500 1250
+	9450 1250 9800 1250
 Wire Wire Line
-	9300 3100 9300 2950
-Connection ~ 9300 2950
+	9450 3100 9450 2950
+Connection ~ 9450 2950
 Wire Wire Line
-	9300 2950 9500 2950
+	9450 2950 9800 2950
 Wire Wire Line
-	9300 3900 9300 3750
-Connection ~ 9300 3750
+	9450 3900 9450 3750
+Connection ~ 9450 3750
 Wire Wire Line
-	9300 3750 9500 3750
+	9450 3750 9800 3750
 Wire Wire Line
-	9300 4700 9300 4550
-Connection ~ 9300 4550
+	9450 4700 9450 4550
+Connection ~ 9450 4550
 Wire Wire Line
-	9300 4550 9500 4550
-Wire Wire Line
-	9300 5450 9300 5350
-Connection ~ 9300 5450
-Wire Wire Line
-	9300 5450 8850 5450
-Connection ~ 9300 5350
-Wire Wire Line
-	9300 5350 9500 5350
+	9450 4550 9800 4550
 Wire Wire Line
 	6450 5150 8150 5150
 Wire Wire Line
@@ -2788,4 +2618,123 @@ Text GLabel 2850 4900 1    50   Input ~ 0
 5V_3
 Text GLabel 2850 5850 1    50   Input ~ 0
 5V_4
+Wire Wire Line
+	9050 1600 9050 1650
+Wire Wire Line
+	9450 1650 9450 1600
+Wire Wire Line
+	9050 5700 9050 5750
+Wire Wire Line
+	9450 5750 9450 5700
+Wire Wire Line
+	8350 5350 9450 5350
+Wire Wire Line
+	9450 5500 9450 5350
+Connection ~ 9450 5350
+Wire Wire Line
+	9450 5350 9800 5350
+Wire Wire Line
+	8850 5450 9700 5450
+Wire Wire Line
+	9050 5750 9300 5750
+Wire Wire Line
+	9300 5750 9300 5250
+Connection ~ 9300 5250
+Wire Wire Line
+	9300 5250 9800 5250
+Wire Wire Line
+	9450 5750 9700 5750
+Wire Wire Line
+	9700 5750 9700 5450
+Connection ~ 9700 5450
+Wire Wire Line
+	9700 5450 9800 5450
+Wire Wire Line
+	8850 1350 9650 1350
+Wire Wire Line
+	9450 1650 9650 1650
+Wire Wire Line
+	9650 1650 9650 1350
+Connection ~ 9650 1350
+Wire Wire Line
+	9650 1350 9800 1350
+Wire Wire Line
+	9050 1650 9250 1650
+Wire Wire Line
+	9250 1650 9250 1150
+Connection ~ 9250 1150
+Wire Wire Line
+	9250 1150 9800 1150
+Wire Wire Line
+	9050 2500 9050 2550
+Wire Wire Line
+	9050 2550 9250 2550
+Wire Wire Line
+	9250 2550 9250 2050
+Connection ~ 9250 2050
+Wire Wire Line
+	9250 2050 9800 2050
+Wire Wire Line
+	9450 2500 9450 2550
+Wire Wire Line
+	9450 2550 9650 2550
+Wire Wire Line
+	9650 2550 9650 2250
+Connection ~ 9650 2250
+Wire Wire Line
+	9650 2250 8850 2250
+Wire Wire Line
+	9050 3300 9050 3350
+Wire Wire Line
+	9050 3350 9250 3350
+Wire Wire Line
+	9250 3350 9250 2850
+Connection ~ 9250 2850
+Wire Wire Line
+	9250 2850 9800 2850
+Wire Wire Line
+	9450 3300 9450 3350
+Wire Wire Line
+	9450 3350 9650 3350
+Wire Wire Line
+	9650 3350 9650 3050
+Connection ~ 9650 3050
+Wire Wire Line
+	9650 3050 8850 3050
+Wire Wire Line
+	9050 4100 9050 4150
+Wire Wire Line
+	9050 4150 9250 4150
+Wire Wire Line
+	9250 4150 9250 3650
+Connection ~ 9250 3650
+Wire Wire Line
+	9250 3650 9800 3650
+Wire Wire Line
+	9450 4100 9450 4150
+Wire Wire Line
+	9450 4150 9650 4150
+Wire Wire Line
+	9650 4150 9650 3850
+Connection ~ 9650 3850
+Wire Wire Line
+	9650 3850 8850 3850
+Wire Wire Line
+	9050 4900 9050 4950
+Wire Wire Line
+	9050 4950 9250 4950
+Wire Wire Line
+	9250 4950 9250 4450
+Connection ~ 9250 4450
+Wire Wire Line
+	9250 4450 9800 4450
+Wire Wire Line
+	9450 4900 9450 4950
+Wire Wire Line
+	9450 4950 9700 4950
+Wire Wire Line
+	9700 4950 9700 4650
+Connection ~ 9700 4650
+Wire Wire Line
+	9700 4650 8850 4650
 $EndSCHEMATC

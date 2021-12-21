@@ -729,4 +729,12 @@ Text GLabel 2950 3200 2    50   Input ~ 0
 GP_3
 Text GLabel 2950 3000 2    50   Input ~ 0
 GP_4
+Text GLabel 2950 6250 0    50   Input ~ 0
+GP_2
+Text GLabel 2950 6150 0    50   Input ~ 0
+GP_1
+Text GLabel 2950 6350 0    50   Input ~ 0
+GP_3
+Text GLabel 4150 6450 2    50   Input ~ 0
+GP_4
 $EndSCHEMATC

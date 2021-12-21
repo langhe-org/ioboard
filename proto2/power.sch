@@ -143,4 +143,6 @@ F 3 "" H 4700 2600 50  0001 C CNN
 	1    4700 2600
 	1    0    0    -1  
 $EndComp
+Text Notes 2550 1000 0    50   ~ 0
+Raspberry Pi draws 1.3A and recomends 2.5A @ 5V.\nBeagleBone draws 1.2A and recomends at least 2A.
 $EndSCHEMATC

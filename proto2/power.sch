@@ -705,9 +705,11 @@ $EndComp
 Text Notes 2550 1000 0    50   ~ 0
 Raspberry Pi draws 1.3A and recomends 2.5A @ 5V.\nBeagleBone draws 1.2A and recomends at least 2A.
 $Comp
-L BCR:CUI_PDQE20_ISOLATED_DCDC PS1
+L proto2-rescue:CUI_PDQE20_ISOLATED_DCDC-BCR PS1
 U 1 1 61BF7DE1
 P 4050 2000
+AR Path="/61BF7DE1" Ref="PS1"  Part="1" 
+AR Path="/619EB672/61BF7DE1" Ref="PS1"  Part="1" 
 F 0 "PS1" H 4050 2425 50  0000 C CNN
 F 1 "CUI_PDQE20_ISOLATED_DCDC" H 4050 2334 50  0000 C CNN
 F 2 "Converter_BCR:CUI_PDQE20" H 3750 2000 50  0001 C CNN

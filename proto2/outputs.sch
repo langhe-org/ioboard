@@ -79,7 +79,7 @@ Wire Wire Line
 	3250 4050 3250 3800
 Wire Wire Line
 	2750 4250 3250 4250
-Text GLabel 10050 1250 2    50   Input ~ 0
+Text GLabel 10050 1200 2    50   Input ~ 0
 DQ2_1
 Text GLabel 7600 1500 0    50   Input ~ 0
 OUT_3
@@ -101,7 +101,7 @@ Wire Wire Line
 	2900 5600 2900 5550
 Wire Wire Line
 	2750 5800 2950 5800
-Text GLabel 3450 2850 2    50   Input ~ 0
+Text GLabel 3400 2850 2    50   Input ~ 0
 DQ2_2
 Text GLabel 950  3150 0    50   Input ~ 0
 OUT_4

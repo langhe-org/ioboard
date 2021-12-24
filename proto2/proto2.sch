@@ -67,113 +67,6 @@ F 3 "" V 4750 2850 50  0001 C CNN
 	2    5600 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 5450 0    50   Input ~ 0
-SCL
-Text GLabel 2950 5350 0    50   Input ~ 0
-SDA
-Wire Wire Line
-	2950 6050 2250 6050
-Wire Wire Line
-	2250 6050 2250 5250
-Connection ~ 2250 5250
-Wire Wire Line
-	2250 5250 2250 5050
-Wire Wire Line
-	2250 5250 2950 5250
-Wire Wire Line
-	4150 5350 4950 5350
-Wire Wire Line
-	4950 5350 4950 5250
-Wire Wire Line
-	4150 5250 4950 5250
-Connection ~ 4950 5250
-Wire Wire Line
-	4950 5250 4950 5000
-Wire Wire Line
-	4150 5450 4950 5450
-Wire Wire Line
-	4950 5450 4950 5850
-Wire Wire Line
-	4150 6650 4950 6650
-Connection ~ 4950 6650
-Wire Wire Line
-	4950 6650 4950 6850
-Wire Wire Line
-	4150 6150 4950 6150
-Connection ~ 4950 6150
-Wire Wire Line
-	4950 6150 4950 6650
-Wire Wire Line
-	4150 5850 4950 5850
-Connection ~ 4950 5850
-Wire Wire Line
-	4950 5850 4950 6150
-Wire Wire Line
-	2950 5650 1850 5650
-Wire Wire Line
-	1850 5650 1850 6450
-Wire Wire Line
-	2950 7150 1850 7150
-Connection ~ 1850 7150
-Wire Wire Line
-	1850 7150 1850 7400
-Wire Wire Line
-	2950 6450 1850 6450
-Connection ~ 1850 6450
-Wire Wire Line
-	1850 6450 1850 7150
-Text GLabel 4150 5650 2    50   Input ~ 0
-RX_1
-Text GLabel 4150 5550 2    50   Input ~ 0
-TX_1
-Text GLabel 2950 5950 0    50   Input ~ 0
-BS_1
-Text GLabel 2950 5850 0    50   Input ~ 0
-BS_2
-Text GLabel 2950 5750 0    50   Input ~ 0
-BS_3
-Text GLabel 2950 5550 0    50   Input ~ 0
-BS_4
-Text GLabel 2950 6950 0    50   Input ~ 0
-OUT_1
-Text GLabel 4150 5750 2    50   Input ~ 0
-OUT_5
-Text GLabel 2950 6850 0    50   Input ~ 0
-OUT_2
-Text GLabel 2950 6750 0    50   Input ~ 0
-OUT_3
-Text GLabel 2950 6650 0    50   Input ~ 0
-OUT_4
-Text GLabel 4150 5950 2    50   Input ~ 0
-OUT_6
-Text GLabel 4150 6950 2    50   Input ~ 0
-OUT_10
-Text GLabel 4150 6050 2    50   Input ~ 0
-OUT_7
-Text GLabel 4150 6250 2    50   Input ~ 0
-OUT_8
-Text GLabel 4150 6750 2    50   Input ~ 0
-OUT_9
-Text GLabel 4150 7050 2    50   Input ~ 0
-OUT_11
-Text GLabel 4150 7150 2    50   Input ~ 0
-OUT_12
-Wire Wire Line
-	4150 6850 4950 6850
-Connection ~ 4950 6850
-Wire Wire Line
-	4950 6850 4950 7450
-$Comp
-L BCR:RaspberryPi RP1
-U 1 1 61B66A11
-P 3550 6150
-F 0 "RP1" H 3550 7317 50  0000 C CNN
-F 1 "RaspberryPi" H 3550 7226 50  0000 C CNN
-F 2 "BCR_SBC:RaspberryPi_UpsideDown" V 3050 4350 50  0001 L CNN
-F 3 "" V 2800 6600 50  0001 C CNN
-	1    3550 6150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 3400 3950 3400
 Wire Wire Line
@@ -246,17 +139,6 @@ F 1 "+3.3V" H 4615 1173 50  0000 C CNN
 F 2 "" H 4600 1000 50  0001 C CNN
 F 3 "" H 4600 1000 50  0001 C CNN
 	1    4600 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR014
-U 1 1 61BF2645
-P 2250 5050
-F 0 "#PWR014" H 2250 4900 50  0001 C CNN
-F 1 "+3.3V" H 2265 5223 50  0000 C CNN
-F 2 "" H 2250 5050 50  0001 C CNN
-F 3 "" H 2250 5050 50  0001 C CNN
-	1    2250 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -571,28 +453,6 @@ F 3 "" H 7350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
-U 1 1 61BA3383
-P 4950 7450
-F 0 "#PWR017" H 4950 7200 50  0001 C CNN
-F 1 "GND" H 4955 7277 50  0001 C CNN
-F 2 "" H 4950 7450 50  0001 C CNN
-F 3 "" H 4950 7450 50  0001 C CNN
-	1    4950 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 61BA3D13
-P 1850 7400
-F 0 "#PWR016" H 1850 7150 50  0001 C CNN
-F 1 "GND" H 1855 7227 50  0001 C CNN
-F 2 "" H 1850 7400 50  0001 C CNN
-F 3 "" H 1850 7400 50  0001 C CNN
-	1    1850 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR015
 U 1 1 61BA4111
 P 6650 6350
@@ -673,17 +533,6 @@ F 3 "~" H 9050 1750 50  0001 C CNN
 	1    9050 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR013
-U 1 1 61BF2EBE
-P 4950 5000
-F 0 "#PWR013" H 4950 4850 50  0001 C CNN
-F 1 "+5V" H 4965 5173 50  0000 C CNN
-F 2 "" H 4950 5000 50  0001 C CNN
-F 3 "" H 4950 5000 50  0001 C CNN
-	1    4950 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 1450 8750 1450
 Text GLabel 8750 1950 0    50   Input ~ 0
@@ -706,8 +555,6 @@ Text GLabel 1550 2300 0    50   Input ~ 0
 OUT_5
 Text GLabel 1550 1900 0    50   Input ~ 0
 OUT_1
-Text GLabel 4150 6350 2    50   Input ~ 0
-BS_5
 Text GLabel 2950 3500 2    50   Input ~ 0
 BS_5
 Text GLabel 2950 3400 2    50   Input ~ 0
@@ -717,14 +564,6 @@ GP_2
 Text GLabel 2950 3200 2    50   Input ~ 0
 GP_3
 Text GLabel 2950 3000 2    50   Input ~ 0
-GP_4
-Text GLabel 2950 6250 0    50   Input ~ 0
-GP_2
-Text GLabel 2950 6150 0    50   Input ~ 0
-GP_1
-Text GLabel 2950 6350 0    50   Input ~ 0
-GP_3
-Text GLabel 4150 6450 2    50   Input ~ 0
 GP_4
 Text GLabel 9250 4050 0    50   Input ~ 0
 SCL

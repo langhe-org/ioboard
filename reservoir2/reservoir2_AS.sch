@@ -1,0 +1,282 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 4
+Title ""
+Date "2021-12-08"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2000 3950 0    50   ~ 0
+PH Boards : 3.46mA\nEC Boards : 26mA\nRTD Boards : 4.2mA\nTotal : 67.32mA
+$Comp
+L BCR:SW_DIP_x04 SW1
+U 1 1 61E10BDD
+P 6550 3750
+F 0 "SW1" H 6550 4017 50  0000 C CNN
+F 1 "SW_DIP_x04" H 6550 3926 50  0000 C CNN
+F 2 "" H 6550 3750 50  0001 C CNN
+F 3 "~" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BCR:SW_DIP_x04 SW1
+U 2 1 61E11F63
+P 6550 3950
+F 0 "SW1" H 6550 4125 50  0001 C CNN
+F 1 "SW_DIP_x04" H 6550 4126 50  0001 C CNN
+F 2 "" H 6550 3950 50  0001 C CNN
+F 3 "~" H 6550 3950 50  0001 C CNN
+	2    6550 3950
+	1    0    0    -1  
+$EndComp
+Text Label 7250 3750 2    50   ~ 0
+EN1
+Wire Wire Line
+	6850 3750 7250 3750
+Wire Wire Line
+	6250 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 3950
+Wire Wire Line
+	6250 3950 5950 3950
+Connection ~ 5950 3950
+Wire Wire Line
+	5950 3950 5950 4350
+Text Label 7250 3950 2    50   ~ 0
+EN2
+Wire Wire Line
+	6850 3950 7250 3950
+$Sheet
+S 11400 500  2850 1150
+U 61E57C83
+F0 "PH" 50
+F1 "PH.sch" 50
+$EndSheet
+$Sheet
+S 11450 4250 2600 1150
+U 61E58045
+F0 "Temperature" 50
+F1 "Temperature.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 61E5C38A
+P 2100 2150
+F 0 "J1" H 2018 2767 50  0000 C CNN
+F 1 "Conn_01x10" H 2018 2676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2100 2150 50  0001 C CNN
+F 3 "~" H 2100 2150 50  0001 C CNN
+	1    2100 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-5.0 U1
+U 1 1 61E638F6
+P 6600 1800
+F 0 "U1" H 6600 2042 50  0000 C CNN
+F 1 "AMS1117-5.0" H 6600 1951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6600 2000 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6700 1550 50  0001 C CNN
+	1    6600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR03
+U 1 1 61E64919
+P 2750 1450
+F 0 "#PWR03" H 2750 1300 50  0001 C CNN
+F 1 "VDD" H 2765 1623 50  0000 C CNN
+F 2 "" H 2750 1450 50  0001 C CNN
+F 3 "" H 2750 1450 50  0001 C CNN
+	1    2750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR01
+U 1 1 61E64DDA
+P 5750 1050
+F 0 "#PWR01" H 5750 900 50  0001 C CNN
+F 1 "VDD" H 5765 1223 50  0000 C CNN
+F 2 "" H 5750 1050 50  0001 C CNN
+F 3 "" H 5750 1050 50  0001 C CNN
+	1    5750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1050 5750 1300
+Wire Wire Line
+	5750 1800 5900 1800
+Wire Wire Line
+	6600 2100 6600 2400
+$Comp
+L power:GND #PWR08
+U 1 1 61E6B225
+P 5950 4350
+F 0 "#PWR08" H 5950 4100 50  0001 C CNN
+F 1 "GND" H 5955 4177 50  0001 C CNN
+F 2 "" H 5950 4350 50  0001 C CNN
+F 3 "" H 5950 4350 50  0001 C CNN
+	1    5950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 61E6B52E
+P 6600 2400
+F 0 "#PWR05" H 6600 2150 50  0001 C CNN
+F 1 "GND" H 6605 2227 50  0001 C CNN
+F 2 "" H 6600 2400 50  0001 C CNN
+F 3 "" H 6600 2400 50  0001 C CNN
+	1    6600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 61E6BB8D
+P 2750 2700
+F 0 "#PWR07" H 2750 2450 50  0001 C CNN
+F 1 "GND" H 2755 2527 50  0001 C CNN
+F 2 "" H 2750 2700 50  0001 C CNN
+F 3 "" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2700 2750 2650
+Wire Wire Line
+	2750 2650 2300 2650
+Wire Wire Line
+	2300 2550 2750 2550
+Wire Wire Line
+	2750 2550 2750 2650
+Connection ~ 2750 2650
+Wire Wire Line
+	2300 1750 2750 1750
+Wire Wire Line
+	2750 1750 2750 1450
+Wire Wire Line
+	2750 2550 2750 2450
+Wire Wire Line
+	2750 2450 2300 2450
+Connection ~ 2750 2550
+NoConn ~ 2300 2350
+NoConn ~ 2300 2250
+NoConn ~ 2300 2150
+NoConn ~ 2300 2050
+Wire Wire Line
+	2300 1950 2750 1950
+Wire Wire Line
+	2300 1850 2750 1850
+Text GLabel 2750 1850 2    50   Input ~ 0
+SCL
+Text GLabel 2750 1950 2    50   Input ~ 0
+SDA
+$Comp
+L power:+5V #PWR02
+U 1 1 61E8FCA2
+P 7250 1050
+F 0 "#PWR02" H 7250 900 50  0001 C CNN
+F 1 "+5V" H 7265 1223 50  0000 C CNN
+F 2 "" H 7250 1050 50  0001 C CNN
+F 3 "" H 7250 1050 50  0001 C CNN
+	1    7250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1050 7250 1300
+Wire Wire Line
+	7250 1800 7150 1800
+$Comp
+L Device:C_Small C1
+U 1 1 61E9432B
+P 5900 2100
+F 0 "C1" H 5992 2146 50  0000 L CNN
+F 1 "0.1uF" H 5992 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 2100 50  0001 C CNN
+F 3 "~" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 61E94C05
+P 7150 2100
+F 0 "C2" H 7242 2146 50  0000 L CNN
+F 1 "0.1uF" H 7242 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7150 2100 50  0001 C CNN
+F 3 "~" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2000 7150 1800
+Connection ~ 7150 1800
+Wire Wire Line
+	7150 1800 6900 1800
+Wire Wire Line
+	5900 2000 5900 1800
+Connection ~ 5900 1800
+Wire Wire Line
+	5900 1800 6300 1800
+Wire Wire Line
+	5900 2200 5900 2400
+Wire Wire Line
+	7150 2200 7150 2400
+$Comp
+L power:GND #PWR06
+U 1 1 61EA4ABE
+P 7150 2400
+F 0 "#PWR06" H 7150 2150 50  0001 C CNN
+F 1 "GND" H 7155 2227 50  0001 C CNN
+F 2 "" H 7150 2400 50  0001 C CNN
+F 3 "" H 7150 2400 50  0001 C CNN
+	1    7150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61EA4D9B
+P 5900 2400
+F 0 "#PWR04" H 5900 2150 50  0001 C CNN
+F 1 "GND" H 5905 2227 50  0001 C CNN
+F 2 "" H 5900 2400 50  0001 C CNN
+F 3 "" H 5900 2400 50  0001 C CNN
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 61EA5833
+P 6600 1300
+F 0 "R1" V 6500 1250 50  0000 L CNN
+F 1 "0R" V 6700 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6600 1300 50  0001 C CNN
+F 3 "~" H 6600 1300 50  0001 C CNN
+	1    6600 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 1300 5750 1300
+Connection ~ 5750 1300
+Wire Wire Line
+	5750 1300 5750 1800
+Wire Wire Line
+	6700 1300 7250 1300
+Connection ~ 7250 1300
+Wire Wire Line
+	7250 1300 7250 1800
+$Sheet
+S 11450 2250 2850 1350
+U 61E57E57
+F0 "EC" 50
+F1 "EC.sch" 50
+$EndSheet
+$EndSCHEMATC

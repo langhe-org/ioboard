@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "2021-12-28"
-Rev ""
-Comp ""
+Title "Reservoir Daughtercard"
+Date "2021-12-30"
+Rev "0.1.0"
+Comp "Langhe Greenhaus"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Greenhouse 2.0 IO Board"
-Date "2021-12-14"
-Rev ""
+Date "2021-12-30"
+Rev "0.1.0"
 Comp "Langhe Greenhaus"
 Comment1 ""
 Comment2 ""

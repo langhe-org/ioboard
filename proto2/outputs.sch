@@ -735,18 +735,6 @@ Wire Wire Line
 	3650 7200 3650 7000
 Wire Wire Line
 	3650 7200 3850 7200
-$Comp
-L Transistor_FET:2N7000 Q1
-U 1 1 61C7D74B
-P 1700 1500
-F 0 "Q1" H 1904 1546 50  0000 L CNN
-F 1 "2N7002" H 1904 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 1425 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 1700 1500 50  0001 L CNN
-F 4 "C8545" H 1700 1500 50  0001 C CNN "LCSC"
-	1    1700 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 1500 1400 1500
 Wire Wire Line
@@ -950,18 +938,6 @@ Wire Wire Line
 	8000 950  8000 1000
 Wire Wire Line
 	4650 5550 4650 5600
-$Comp
-L Transistor_FET:2N7000 Q2
-U 1 1 61D5722E
-P 5000 1500
-F 0 "Q2" H 5204 1546 50  0000 L CNN
-F 1 "2N7002" H 5204 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1425 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 5000 1500 50  0001 L CNN
-F 4 "C8545" H 5000 1500 50  0001 C CNN "LCSC"
-	1    5000 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 1500 4700 1500
 Wire Wire Line
@@ -1003,18 +979,6 @@ Wire Wire Line
 Connection ~ 4700 1500
 Wire Wire Line
 	4350 1500 4250 1500
-$Comp
-L Transistor_FET:2N7000 Q3
-U 1 1 61D5E61C
-P 8350 1500
-F 0 "Q3" H 8554 1546 50  0000 L CNN
-F 1 "2N7002" H 8554 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 1425 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 8350 1500 50  0001 L CNN
-F 4 "C8545" H 8350 1500 50  0001 C CNN "LCSC"
-	1    8350 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 1500 8050 1500
 Wire Wire Line
@@ -1056,18 +1020,6 @@ Wire Wire Line
 Connection ~ 8050 1500
 Wire Wire Line
 	7700 1500 7600 1500
-$Comp
-L Transistor_FET:2N7000 Q4
-U 1 1 61D752B5
-P 1700 3150
-F 0 "Q4" H 1904 3196 50  0000 L CNN
-F 1 "2N7002" H 1904 3105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 3075 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 1700 3150 50  0001 L CNN
-F 4 "C8545" H 1700 3150 50  0001 C CNN "LCSC"
-	1    1700 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 3150 1400 3150
 Wire Wire Line
@@ -1109,18 +1061,6 @@ Wire Wire Line
 Connection ~ 1400 3150
 Wire Wire Line
 	1050 3150 950  3150
-$Comp
-L Transistor_FET:2N7000 Q5
-U 1 1 61D7DA9E
-P 5000 3150
-F 0 "Q5" H 5204 3196 50  0000 L CNN
-F 1 "2N7002" H 5204 3105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 3075 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 5000 3150 50  0001 L CNN
-F 4 "C8545" H 5000 3150 50  0001 C CNN "LCSC"
-	1    5000 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 3150 4700 3150
 Wire Wire Line
@@ -1162,18 +1102,6 @@ Wire Wire Line
 Connection ~ 4700 3150
 Wire Wire Line
 	4350 3150 4250 3150
-$Comp
-L Transistor_FET:2N7000 Q6
-U 1 1 61D86E16
-P 8350 3150
-F 0 "Q6" H 8554 3196 50  0000 L CNN
-F 1 "2N7002" H 8554 3105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 3075 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 8350 3150 50  0001 L CNN
-F 4 "C8545" H 8350 3150 50  0001 C CNN "LCSC"
-	1    8350 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 3150 8050 3150
 Wire Wire Line
@@ -1215,18 +1143,6 @@ Wire Wire Line
 Connection ~ 8050 3150
 Wire Wire Line
 	7700 3150 7600 3150
-$Comp
-L Transistor_FET:2N7000 Q9
-U 1 1 61E73409
-P 8350 4550
-F 0 "Q9" H 8554 4596 50  0000 L CNN
-F 1 "2N7002" H 8554 4505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 4475 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 8350 4550 50  0001 L CNN
-F 4 "C8545" H 8350 4550 50  0001 C CNN "LCSC"
-	1    8350 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 4550 8050 4550
 Wire Wire Line
@@ -1256,18 +1172,6 @@ Wire Wire Line
 Connection ~ 8050 4550
 Wire Wire Line
 	7700 4550 7600 4550
-$Comp
-L Transistor_FET:2N7000 Q8
-U 1 1 61E7DACB
-P 5000 4550
-F 0 "Q8" H 5204 4596 50  0000 L CNN
-F 1 "2N7002" H 5204 4505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 4475 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 5000 4550 50  0001 L CNN
-F 4 "C8545" H 5000 4550 50  0001 C CNN "LCSC"
-	1    5000 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 4550 4700 4550
 Wire Wire Line
@@ -1297,18 +1201,6 @@ Wire Wire Line
 Connection ~ 4700 4550
 Wire Wire Line
 	4350 4550 4250 4550
-$Comp
-L Transistor_FET:2N7000 Q7
-U 1 1 61E889EB
-P 1750 4550
-F 0 "Q7" H 1954 4596 50  0000 L CNN
-F 1 "2N7002" H 1954 4505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 4475 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 1750 4550 50  0001 L CNN
-F 4 "C8545" H 1750 4550 50  0001 C CNN "LCSC"
-	1    1750 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 4550 1450 4550
 Wire Wire Line
@@ -1338,18 +1230,6 @@ Wire Wire Line
 Connection ~ 1450 4550
 Wire Wire Line
 	1100 4550 1000 4550
-$Comp
-L Transistor_FET:2N7000 Q12
-U 1 1 61EBDAA5
-P 8350 6100
-F 0 "Q12" H 8554 6146 50  0000 L CNN
-F 1 "2N7002" H 8554 6055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 6025 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 8350 6100 50  0001 L CNN
-F 4 "C8545" H 8350 6100 50  0001 C CNN "LCSC"
-	1    8350 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 6100 8050 6100
 Wire Wire Line
@@ -1379,18 +1259,6 @@ Wire Wire Line
 Connection ~ 8050 6100
 Wire Wire Line
 	7700 6100 7600 6100
-$Comp
-L Transistor_FET:2N7000 Q11
-U 1 1 61ECB30A
-P 5000 6100
-F 0 "Q11" H 5204 6146 50  0000 L CNN
-F 1 "2N7002" H 5204 6055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 6025 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 5000 6100 50  0001 L CNN
-F 4 "C8545" H 5000 6100 50  0001 C CNN "LCSC"
-	1    5000 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 6100 4700 6100
 Wire Wire Line
@@ -1420,18 +1288,6 @@ Wire Wire Line
 Connection ~ 4700 6100
 Wire Wire Line
 	4350 6100 4250 6100
-$Comp
-L Transistor_FET:2N7000 Q10
-U 1 1 61ED8EE8
-P 1750 6100
-F 0 "Q10" H 1954 6146 50  0000 L CNN
-F 1 "2N7002" H 1954 6055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 6025 50  0001 L CIN
-F 3 "https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf" H 1750 6100 50  0001 L CNN
-F 4 "C8545" H 1750 6100 50  0001 C CNN "LCSC"
-	1    1750 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 6100 1450 6100
 Wire Wire Line
@@ -1699,6 +1555,138 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 1450 6250 50  0001 C CNN
 F 3 "~" H 1450 6250 50  0001 C CNN
 F 4 "C17593" H 1450 6250 50  0001 C CNN "LCSC"
 	1    1450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 61E212C0
+P 1700 1500
+F 0 "Q1" H 1904 1546 50  0000 L CNN
+F 1 "2N7002" H 1904 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 1425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 1700 1500 50  0001 L CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 61E3ABE1
+P 5000 1500
+F 0 "Q2" H 5204 1546 50  0000 L CNN
+F 1 "2N7002" H 5204 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 1500 50  0001 L CNN
+	1    5000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q3
+U 1 1 61E3C902
+P 8350 1500
+F 0 "Q3" H 8554 1546 50  0000 L CNN
+F 1 "2N7002" H 8554 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 1425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8350 1500 50  0001 L CNN
+	1    8350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q4
+U 1 1 61E3E7A8
+P 1700 3150
+F 0 "Q4" H 1904 3196 50  0000 L CNN
+F 1 "2N7002" H 1904 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 3075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 1700 3150 50  0001 L CNN
+	1    1700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q5
+U 1 1 61E418AB
+P 5000 3150
+F 0 "Q5" H 5204 3196 50  0000 L CNN
+F 1 "2N7002" H 5204 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 3075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 3150 50  0001 L CNN
+	1    5000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q6
+U 1 1 61E437FE
+P 8350 3150
+F 0 "Q6" H 8554 3196 50  0000 L CNN
+F 1 "2N7002" H 8554 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 3075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8350 3150 50  0001 L CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q9
+U 1 1 61E457D3
+P 8350 4550
+F 0 "Q9" H 8554 4596 50  0000 L CNN
+F 1 "2N7002" H 8554 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 4475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8350 4550 50  0001 L CNN
+	1    8350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q8
+U 1 1 61E48350
+P 5000 4550
+F 0 "Q8" H 5204 4596 50  0000 L CNN
+F 1 "2N7002" H 5204 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 4475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 4550 50  0001 L CNN
+	1    5000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q7
+U 1 1 61E4A74F
+P 1750 4550
+F 0 "Q7" H 1954 4596 50  0000 L CNN
+F 1 "2N7002" H 1954 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 4475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 1750 4550 50  0001 L CNN
+	1    1750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q10
+U 1 1 61E4C74A
+P 1750 6100
+F 0 "Q10" H 1954 6146 50  0000 L CNN
+F 1 "2N7002" H 1954 6055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 6025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 1750 6100 50  0001 L CNN
+	1    1750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q11
+U 1 1 61E4E5E8
+P 5000 6100
+F 0 "Q11" H 5204 6146 50  0000 L CNN
+F 1 "2N7002" H 5204 6055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 6025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5000 6100 50  0001 L CNN
+	1    5000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q12
+U 1 1 61E4F896
+P 8350 6100
+F 0 "Q12" H 8554 6146 50  0000 L CNN
+F 1 "2N7002" H 8554 6055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 6025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8350 6100 50  0001 L CNN
+	1    8350 6100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

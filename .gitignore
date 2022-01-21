@@ -28,3 +28,4 @@ fp-info-cache
 *.zip
 Plots/
 *.kicad_prl
+sym-lib-table

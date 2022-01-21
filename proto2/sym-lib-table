@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name proto2-rescue)(type Legacy)(uri ${KIPRJMOD}/proto2-rescue.lib)(options "")(descr ""))
-)

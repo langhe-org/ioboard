@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 1.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "courtyards_overlap|101570001|114300001|00000000-0000-0000-0000-000061c54486|00000000-0000-0000-0000-000061c85caa",
         "courtyards_overlap|108570001|114300001|00000000-0000-0000-0000-000061c54497|00000000-0000-0000-0000-000061c85caa"
@@ -443,6 +449,10 @@
     [
       "00000000-0000-0000-0000-000061a252c2",
       "Terminals"
+    ],
+    [
+      "3a9a5f1b-05d2-4421-a7ce-7632680b9874",
+      "comms"
     ]
   ],
   "text_variables": {}

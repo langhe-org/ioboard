@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -439,20 +439,28 @@
       ""
     ],
     [
+      "00000000-0000-0000-0000-0000619eb672",
+      "Power"
+    ],
+    [
       "00000000-0000-0000-0000-0000619eb5f5",
       "Output"
     ],
     [
-      "00000000-0000-0000-0000-0000619eb672",
-      "Power"
+      "3a9a5f1b-05d2-4421-a7ce-7632680b9874",
+      "Comms"
+    ],
+    [
+      "043737de-b3c8-42bc-95f6-8b28c421e9be",
+      "Inputs"
     ],
     [
       "00000000-0000-0000-0000-000061a252c2",
       "Terminals"
     ],
     [
-      "3a9a5f1b-05d2-4421-a7ce-7632680b9874",
-      "comms"
+      "ce7c4280-372b-4b2f-8f0c-5226fb4b05f6",
+      "Terminals2"
     ]
   ],
   "text_variables": {}

@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [
@@ -124,6 +124,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         0.4,
         1.0
       ],
@@ -451,7 +452,7 @@
       "Comms"
     ],
     [
-      "043737de-b3c8-42bc-95f6-8b28c421e9be",
+      "bffc2d64-45b2-4542-af5c-9e1635dd3729",
       "Inputs"
     ],
     [

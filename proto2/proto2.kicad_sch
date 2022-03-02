@@ -2405,9 +2405,6 @@
     (path "/6432f4af-8801-4181-b1ac-47963c04df60"
       (reference "#PWR0107") (unit 1) (value "SIGGND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-0000620c6f07"
-      (reference "#PWR0108") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000619eb672/2abe7583-a99d-4320-b3dd-9b5ad40e8d14"
       (reference "#PWR0109") (unit 1) (value "SIGGND") (footprint "")
     )
@@ -2440,9 +2437,6 @@
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/ce9c0234-9ef2-470b-b9a8-cddea633ff6a"
       (reference "#PWR0119") (unit 1) (value "SIGGND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-000061bc2b86"
-      (reference "#PWR0120") (unit 1) (value "VDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/b45fad5c-35a4-4e24-9712-8eb8b1772a76"
       (reference "#PWR0121") (unit 1) (value "SIGGND") (footprint "")
@@ -2812,6 +2806,12 @@
     )
     (path "/ce7c4280-372b-4b2f-8f0c-5226fb4b05f6/00000000-0000-0000-0000-00006283f0f7"
       (reference "#PWR0249") (unit 1) (value "PWRGND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619eb672/33cd5cd7-7489-484c-afc8-45530d5029de"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619eb672/cfe94271-550e-4993-aa04-5a98775aaef8"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061b4e58b"
       (reference "BB1") (unit 1) (value "BeagleBone") (footprint "BCR_SBC:BeagleBone_UpsideDown")
@@ -3383,14 +3383,14 @@
     (path "/00000000-0000-0000-0000-000061a252c2/00000000-0000-0000-0000-000061c64ab4"
       (reference "L42") (unit 1) (value "10uH 500mA") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-000061b9a1ae"
-      (reference "L43") (unit 1) (value "2.2uH 1.6A") (footprint "Inductor_BCR:Murata_LQH32PN2R2NN0L")
-    )
     (path "/00000000-0000-0000-0000-000061a252c2/db4736c2-5dfa-4017-be1c-2b55a5cf2e92"
-      (reference "L44") (unit 1) (value "10uH 500mA") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L43") (unit 1) (value "10uH 500mA") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061a252c2/97369d26-60d3-4dc2-94b3-0be421ccd4d2"
-      (reference "L45") (unit 1) (value "10uH 500mA") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L44") (unit 1) (value "10uH 500mA") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-000061b9a1ae"
+      (reference "L46") (unit 1) (value "2.2uH 1.6A") (footprint "Inductor_BCR:Murata_LQH32PN2R2NN0L")
     )
     (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-000061bf7de1"
       (reference "PS1") (unit 1) (value "CUI PDQE20-Q24-S5-D") (footprint "Converter_BCR:CUI_PDQE20")

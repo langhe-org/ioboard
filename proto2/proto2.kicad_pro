@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 3.175,
-          "height": 6.35,
-          "width": 6.35
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39999999999999997
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,8 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|101570001|114300001|00000000-0000-0000-0000-000061c54486|00000000-0000-0000-0000-000061c85caa",
-        "courtyards_overlap|108570001|114300001|00000000-0000-0000-0000-000061c54497|00000000-0000-0000-0000-000061c85caa"
+        "courtyards_overlap|143320001|114550001|00000000-0000-0000-0000-000061c54486|00000000-0000-0000-0000-000061c85caa",
+        "courtyards_overlap|150320001|114550001|00000000-0000-0000-0000-000061c54497|00000000-0000-0000-0000-000061c85caa"
       ],
       "meta": {
         "filename": "board_design_settings.json",

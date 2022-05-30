@@ -6,9 +6,10 @@
 
   (title_block
     (title "Greenhouse 2.0 IO Board")
-    (date "2022-03-06")
-    (rev "0.2.0")
+    (date "2022-05-30")
+    (rev "0.2.1")
     (company "Langhe Greenhaus")
+    (comment 1 "Langhe Part Number: 240000")
   )
 
   (lib_symbols

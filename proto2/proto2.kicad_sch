@@ -3694,7 +3694,7 @@
       (reference "F14") (unit 1) (value "0.5A") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000619eb672/00000000-0000-0000-0000-000061c38994"
-      (reference "F15") (unit 1) (value "1A") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "F15") (unit 1) (value "1A") (footprint "JLCPCB:F_2920")
     )
     (path "/bffc2d64-45b2-4542-af5c-9e1635dd3729/324faf9c-a05f-4bf7-bb6d-e16b0544801d"
       (reference "F16") (unit 1) (value "0.1A") (footprint "Resistor_SMD:R_1206_3216Metric")

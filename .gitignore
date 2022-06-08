@@ -7,6 +7,7 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*.kicad_sch-bak
 *~
 _autosave-*
 *.tmp
@@ -29,3 +30,4 @@ fp-info-cache
 Plots/
 *.kicad_prl
 sym-lib-table
+*-backups/

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse 2.0 IO Board")
-    (date "2022-06-07")
-    (rev "0.2.1")
+    (date "2022-07-26")
+    (rev "0.3.0")
     (company "Langhe Greenhaus")
     (comment 1 "Langhe Part Number: 240000")
   )
@@ -2279,7 +2279,7 @@
   )
 
   (symbol (lib_id "BCR:CUI_PDQE20_ISOLATED_DCDC") (at 115.57 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061bf7de1)
     (property "Reference" "PS1" (id 0) (at 115.57 38.735 0))
     (property "Value" "CUI PDQE20-Q24-S5-D" (id 1) (at 115.57 41.0464 0))
@@ -2757,7 +2757,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 170.18 151.13 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6f8b0b14-8f38-44b6-b1f7-023647fad403)
     (property "Reference" "J15" (id 0) (at 170.18 142.24 0))
     (property "Value" "Test Points" (id 1) (at 170.18 144.78 0))
@@ -2907,7 +2907,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 110.49 152.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid b384dafc-140d-4b93-8f42-29f6ef58fa72)
     (property "Reference" "J14" (id 0) (at 110.49 143.51 0))
     (property "Value" "Test Points" (id 1) (at 110.49 146.05 0))
@@ -3027,7 +3027,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 198.12 151.13 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e43bcd38-8a64-4da1-a3cb-fb4a334e66b1)
     (property "Reference" "J16" (id 0) (at 198.12 142.24 0))
     (property "Value" "Test Points" (id 1) (at 198.12 144.78 0))

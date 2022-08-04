@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse 2.0 IO Board")
-    (date "2022-07-26")
-    (rev "0.3.0")
+    (date "2022-08-04")
+    (rev "0.3.1")
     (company "Langhe Greenhaus")
     (comment 1 "Langhe Part Number: 240000")
   )
@@ -2719,7 +2719,7 @@
     (property "Manufacturer" "PTTC(Polytronics Tech)" (id 5) (at 24.13 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Nmber" "SHV2920P500-30-AA" (id 6) (at 24.13 44.45 90)
+    (property "Part Number" "SHV2920P500-30-AA" (id 6) (at 24.13 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5be299c6-37c5-48b0-82ca-e3decf0c447b))

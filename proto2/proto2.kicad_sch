@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse 2.0 IO Board")
-    (date "2022-07-26")
-    (rev "0.3.0")
+    (date "2022-08-04")
+    (rev "0.3.1")
     (company "Langhe Greenhaus")
     (comment 1 "Langhe Part Number: 240000")
   )
@@ -4426,46 +4426,46 @@
       (reference "SW1") (unit 4) (value "SW_DIP_x04") (footprint "Button_Switch_BCR:CUI_DS04-254-2-04BK-SMT")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a298c2"
-      (reference "U1") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U1") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a3e24a"
-      (reference "U2") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U2") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061b4d7b8"
-      (reference "U3") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U3") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a2c49b"
-      (reference "U4") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U4") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a3e49b"
-      (reference "U5") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U5") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061b4dc7b"
-      (reference "U6") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U6") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a33784"
-      (reference "U7") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U7") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a3e4c4"
-      (reference "U8") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U8") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061b4dc9e"
-      (reference "U9") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U9") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a351ca"
-      (reference "U10") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U10") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061a3e4ed"
-      (reference "U11") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U11") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/00000000-0000-0000-0000-000061b4dcc1"
-      (reference "U12") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U12") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/3fbd0084-2e0c-4e1b-842b-cb1f6d5bdc95"
-      (reference "U13") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U13") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/00000000-0000-0000-0000-0000619eb5f5/b79f3646-42bf-4e1b-8d68-81901d398c74"
-      (reference "U14") (unit 1) (value "AQY282SX") (footprint "JLCPCB:SO-4_6.0mm_P2.54mm")
+      (reference "U14") (unit 1) (value "TLP240A") (footprint "JLCPCB:SO-4_8.55mm_P2.54mm")
     )
     (path "/3a9a5f1b-05d2-4421-a7ce-7632680b9874/6e05e766-0d4f-4396-82b4-9432f43bfe3e"
       (reference "U15") (unit 1) (value "AMS1117-3.3") (footprint "JLCPCB:SOT-223-3")

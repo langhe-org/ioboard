@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse 2.0 IO Board")
-    (date "2022-08-04")
-    (rev "0.3.1")
+    (date "2022-09-13")
+    (rev "0.3.2")
     (company "Langhe Greenhaus")
     (comment 1 "Langhe Part Number: 240000")
   )
@@ -678,6 +678,7 @@
       )
     )
   )
+
 
   (junction (at 59.69 68.58) (diameter 0) (color 0 0 0 0)
     (uuid 0e8d082f-3022-471a-9588-282f593a9bee)

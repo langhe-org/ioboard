@@ -1934,7 +1934,7 @@
     (pin "9.8" (uuid 859c3381-d202-46a8-ad0f-e011d3fec5a3))
     (pin "9.9" (uuid 55296224-68f3-46c3-9221-4f0ce9546cb4))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "BB1") (unit 1)
         )
@@ -2053,7 +2053,7 @@
     (pin "9.8" (uuid e731be15-55d3-4566-bef3-4b77ed3f848a))
     (pin "9.9" (uuid 61f092db-d732-44e6-ab5b-e56a273f9e01))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "BB1") (unit 2)
         )
@@ -2078,7 +2078,7 @@
     )
     (pin "1" (uuid 05997941-25d4-4856-a402-c7da9d2585c4))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR05") (unit 1)
         )
@@ -2103,7 +2103,7 @@
     )
     (pin "1" (uuid 7200c1e8-86a4-45e9-b37c-3adefd3ea9bc))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR04") (unit 1)
         )
@@ -2128,7 +2128,7 @@
     )
     (pin "1" (uuid 5a0d6268-6c2c-4b1a-bcc1-33575db26140))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR06") (unit 1)
         )
@@ -2153,7 +2153,7 @@
     )
     (pin "1" (uuid 902e729c-5f75-40ea-9034-c37ec0e3eedf))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR03") (unit 1)
         )
@@ -2194,7 +2194,7 @@
     (pin "4" (uuid f926e7dd-b611-412c-b7fb-75ce448780ee))
     (pin "5" (uuid e9f8e779-a1b9-43f5-89e8-087d688e7c2c))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "SW1") (unit 1)
         )
@@ -2235,7 +2235,7 @@
     (pin "4" (uuid 3e847475-ade1-4c9e-b010-0a188fcfe429))
     (pin "5" (uuid 4c46d2bc-8c03-4696-a470-150c96b7e831))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "SW1") (unit 2)
         )
@@ -2276,7 +2276,7 @@
     (pin "4" (uuid fafd5cca-0a80-45b9-8478-763e4c20f7b5))
     (pin "5" (uuid 11f738d2-d2cf-4a51-aa22-87e65c0c5dea))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "SW1") (unit 3)
         )
@@ -2317,7 +2317,7 @@
     (pin "4" (uuid cceb8298-0203-467f-a10f-2246f4a89661))
     (pin "5" (uuid 9023d575-ec6e-4dc4-a796-9e11f8b5fb6d))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "SW1") (unit 4)
         )
@@ -2346,7 +2346,7 @@
     (pin "1" (uuid a7a0c49d-b696-4253-b62d-68a3ff8e4d01))
     (pin "2" (uuid 4707d8f5-3f04-4eb6-a3e6-8aed8b51bc80))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R1") (unit 1)
         )
@@ -2375,7 +2375,7 @@
     (pin "1" (uuid 5eeef606-a277-47c8-bb00-fe326526b696))
     (pin "2" (uuid 48871ed0-85fd-4b00-9b91-b823fc9531ef))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R2") (unit 1)
         )
@@ -2404,7 +2404,7 @@
     (pin "1" (uuid 436b72a5-ad75-45ff-8dc3-7a81b7648b02))
     (pin "2" (uuid 780f9dde-7dfc-4748-a7bf-9ba4ea401e15))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R3") (unit 1)
         )
@@ -2433,7 +2433,7 @@
     (pin "1" (uuid 3e44ac15-b205-44d0-978b-82029367c233))
     (pin "2" (uuid a92f05b3-8688-47c8-87a0-b6c59180e875))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R4") (unit 1)
         )
@@ -2462,7 +2462,7 @@
     (pin "1" (uuid 60c6d961-7185-4558-8fbf-00529dd9373b))
     (pin "2" (uuid 20a90bea-3a29-4dc3-84a1-b15ce2cb1d79))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R22") (unit 1)
         )
@@ -2491,7 +2491,7 @@
     (pin "1" (uuid 906f9e27-6dc1-44d8-a7a1-a2c0b57d2fe3))
     (pin "2" (uuid da11b0b1-01e0-4106-84f6-0c2e8b2aaabc))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R23") (unit 1)
         )
@@ -2516,7 +2516,7 @@
     )
     (pin "1" (uuid 64ccf757-c39c-4a22-ae39-be2ebf19a906))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR018") (unit 1)
         )
@@ -2541,7 +2541,7 @@
     )
     (pin "1" (uuid d7c1117a-b071-4863-8d84-79bd01e155db))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR012") (unit 1)
         )
@@ -2578,7 +2578,7 @@
     (pin "8" (uuid 22f9c55d-74d8-4330-96cf-da1e6b20da49))
     (pin "9" (uuid 18f40c84-a8c3-4547-929a-1125820d20f3))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "J13") (unit 1)
         )
@@ -2603,7 +2603,7 @@
     )
     (pin "1" (uuid f9e592a6-a4da-49ef-a323-c9d56ba58939))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0101") (unit 1)
         )
@@ -2628,7 +2628,7 @@
     )
     (pin "1" (uuid 475ffded-5c04-48ed-9397-611ce925dab3))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0106") (unit 1)
         )
@@ -2653,7 +2653,7 @@
     )
     (pin "1" (uuid fe2f1c0a-999f-428e-8e5b-2d9ed0237987))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR044") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     (pin "8" (uuid 8cda94fb-a3e1-4119-9e0a-4d1f8aa410ac))
     (pin "9" (uuid 966c3ab3-8b61-4f45-8e97-79a2f8c50c40))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "U16") (unit 1)
         )
@@ -2712,7 +2712,7 @@
     )
     (pin "1" (uuid ccb497d2-68be-4187-aeff-5348d02100c0))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0103") (unit 1)
         )
@@ -2737,7 +2737,7 @@
     )
     (pin "1" (uuid c10aa890-4139-479f-b5ad-be62be4b3d12))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0161") (unit 1)
         )
@@ -2766,7 +2766,7 @@
     (pin "1" (uuid fea2e16d-670c-4c66-a373-10b75a78b711))
     (pin "2" (uuid 4e1c233d-f8d4-4b54-91cb-904ec5785de4))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "R21") (unit 1)
         )
@@ -2791,7 +2791,7 @@
     )
     (pin "1" (uuid 05f681be-1264-4c71-8b71-45a607b3195c))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0107") (unit 1)
         )
@@ -2816,7 +2816,7 @@
     )
     (pin "1" (uuid 2f752495-e1e5-489e-9fa6-37e695b4fb11))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0162") (unit 1)
         )
@@ -2841,7 +2841,7 @@
     )
     (pin "1" (uuid 3ddcaef2-a325-4618-9af4-da75e17083fd))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "TP66") (unit 1)
         )
@@ -2866,7 +2866,7 @@
     )
     (pin "1" (uuid de32799e-b3ce-40b6-802f-1ee536387fbf))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0104") (unit 1)
         )
@@ -2895,7 +2895,7 @@
     (pin "1" (uuid ec15a33f-57fe-43d5-9fca-e263a2d2e40b))
     (pin "2" (uuid 267fe9db-d083-4d46-830b-f4e491af768f))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "C70") (unit 1)
         )
@@ -2920,7 +2920,7 @@
     )
     (pin "1" (uuid 46db678c-b177-4698-99ba-e2f376b1ca59))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0163") (unit 1)
         )
@@ -2950,7 +2950,7 @@
     (pin "5" (uuid 6dd4fa20-cc88-46ae-adbb-c7546f2da88d))
     (pin "6" (uuid 2dc5ac66-2803-444d-bffd-ccb6e61510ac))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "J17") (unit 1)
         )
@@ -2975,7 +2975,7 @@
     )
     (pin "1" (uuid 8dd1a9fd-ef1f-4d5b-adee-e8667cc06865))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0102") (unit 1)
         )
@@ -3000,7 +3000,7 @@
     )
     (pin "1" (uuid d08a7245-0de7-4266-b64f-6894ec54c4c2))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0105") (unit 1)
         )
@@ -3025,7 +3025,7 @@
     )
     (pin "1" (uuid c4443e9d-9373-4030-aa16-64847a599402))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "TP67") (unit 1)
         )
@@ -3050,7 +3050,7 @@
     )
     (pin "1" (uuid a8c6a38f-74b1-458c-aaeb-bc1ad9843f12))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR0164") (unit 1)
         )
@@ -3075,7 +3075,7 @@
     )
     (pin "1" (uuid c0d0b3c9-d6aa-40a5-a515-9fb055e3e81a))
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7"
           (reference "#PWR043") (unit 1)
         )
@@ -3094,7 +3094,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "3"))
       )
     )
@@ -3111,7 +3111,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "2"))
       )
     )
@@ -3128,7 +3128,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "6"))
       )
     )
@@ -3145,7 +3145,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "4"))
       )
     )
@@ -3162,7 +3162,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "5"))
       )
     )
@@ -3179,7 +3179,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "proto2"
+      (project "ioboard"
         (path "/0a1a4d88-972a-46ce-b25e-6cb796bd41f7" (page "7"))
       )
     )

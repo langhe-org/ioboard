@@ -2,14 +2,13 @@
 
   (uuid 72200db3-0111-4cf1-9b99-2c2926a64ecc)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (title_block
-    (title "Greenhouse 2.0 IO Board")
+    (title "IO Board")
     (date "2022-09-13")
     (rev "0.3.2")
-    (company "Langhe Greenhaus")
-    (comment 1 "Langhe Part Number: 240000")
+    (company "Langhe")
   )
 
   (lib_symbols
